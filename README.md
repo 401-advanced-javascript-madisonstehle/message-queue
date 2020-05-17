@@ -7,8 +7,8 @@ Combine Express servers and sockets, to have a communication network over HTTP a
 
 ### Links and Resources
 
-- [Submission PR]()
-- [ci/cd]() (GitHub Actions)
+- [Submission PR](https://github.com/madisonstehle/message-queue/pull/1)
+- [ci/cd](https://github.com/madisonstehle/message-queue/actions) (GitHub Actions)
 
 
 #### Documentation
@@ -23,5 +23,4 @@ Code is documented using JSDocs style comments.
 
 #### Tests
 
-- Unit Test: `npm test`
 - Lint Test: `npm run lint`
