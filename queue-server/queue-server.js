@@ -1,9 +1,29 @@
 'use strict';
 
-const sio = require('socket.io')(3000);
+const sio = require('socket.io')(3001);
 
-let queue = {};
+let queue = {
+  flowerShop: [],
+  candyShop: []
+};
 
 sio.on('connection', (socket) => {
-  console.log(`queue has connected to ${socket.id}`);
-})
+  console.log(`Message Queue has connected to socket ${socket.id}`);
+
+  socket.on('received', (payload) => {
+
+  });
+
+  socket.on('getAll', (payload) => {
+
+  });
+
+  socket.on('subscribe', (payload) => {
+
+  });
+
+  socket.on('delivered', (payload) => {
+
+  });
+  
+});

@@ -18,7 +18,11 @@ Code is documented using JSDocs style comments.
 
 ### Setup
 
-- `npm start` or `node index.js` to start the application
+Run `npm start` in each application:
+1. queue-server
+2. api
+3. vendor-01
+4. vendor-02
 
 
 #### Tests
