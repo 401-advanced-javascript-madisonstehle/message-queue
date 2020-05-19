@@ -4,8 +4,13 @@
   "description": "",
   "main": "queue-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node queue-server.js",
+    "dev": "nodemon queue-server.js",
+    "lint": "eslint **/*.js"
   },
   "author": "Madison Stehle",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
 }

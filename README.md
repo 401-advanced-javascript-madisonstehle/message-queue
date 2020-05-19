@@ -7,8 +7,8 @@ Combine Express servers and sockets, to have a communication network over HTTP a
 
 ### Links and Resources
 
-- [Submission PR]()
-- [ci/cd]() (GitHub Actions)
+- [Submission PR](https://github.com/madisonstehle/message-queue/pull/1)
+- [ci/cd](https://github.com/madisonstehle/message-queue/actions) (GitHub Actions)
 
 
 #### Documentation
@@ -18,10 +18,13 @@ Code is documented using JSDocs style comments.
 
 ### Setup
 
-- `npm start` or `node index.js` to start the application
+Run `npm start` in each application:
+1. queue-server
+2. api
+3. vendor-01
+4. vendor-02
 
 
 #### Tests
 
-- Unit Test: `npm test`
 - Lint Test: `npm run lint`
